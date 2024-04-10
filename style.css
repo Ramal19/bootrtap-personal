@@ -1,0 +1,266 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar{
+
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > .container{
+
+    width: 1200px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > h1{
+
+    font-size: 20px;
+    color: #1e30f3;
+}
+
+.container > ul{
+
+    font-size: 14px;
+    color: #0000008c;
+}
+
+ul{
+
+    width: 250px;
+    height: 72px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER */
+
+header{
+
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .container{
+    
+    width: 1200px;
+    height: 692px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header > .container > .left{
+
+    width: 482px;
+    height: 692px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header > .container > .left > h3{
+
+    width: 239px;
+    height: 20;
+    background: linear-gradient(to right, #1e30f3 0%, #e21e80 100%);
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+}
+
+header > .container > .left > p{
+
+    width: 482px;
+    height: 42px;
+    color: #6c757d;
+    font-size: 28px;
+}
+
+header > .container > .left > h1{
+
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 482px;
+    height: 158.13px;
+    font-size: 64px;
+}
+
+header > .container > .left > .button{
+
+    width: 482px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header > .container > .left > .button > .btn1{
+
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1e30f3;
+    color: #ffffff;
+    font: 16px;
+}
+
+header > .container > .left > .button > .btn2{
+
+    width: 130px;
+    height: 50px;
+    border: 1px solid #212425;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #212425;
+    font: 16px;
+}
+
+header > .container > .left > .button > .btn2:hover{
+
+    color: #ffffff;
+    background-color: #212425;
+}
+
+header > .container > .right{
+
+    width: 482px;
+    height: 692px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header > .container > .right > .img{
+
+    width: 482px;
+    height: 479px;
+    background: linear-gradient(to right, #1e30f3 0%, #e21e80 100%);
+    border-radius: 20px;
+    position: relative;
+}
+
+img{
+    
+    width: 482px;
+    height: 550px;
+    position: absolute;
+    top: -70px;
+}
+
+/* SECTION */
+
+section{
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f8f9fa;
+}
+
+section > h1{
+
+    font-size: 64px;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+section > p{
+
+    font-size: 20px;
+}
+
+section > .p{
+
+    width: 799px;
+    height: 72px;
+    font-size: 16px;
+    text-align: center;
+}
+
+section > .icon{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    gap: 15px;
+}
+
+/* FOOTER */
+
+footer{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .container{
+
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > .container > h1{
+
+    font-size: 14px;
+    color: #6c757d;
+}
+
+footer > .container > ul{
+
+    width: 150px;
+    gap: 15px;
+}
+
+footer > .container > ul > a{
+
+    color: #1e30f3;
+}
+
+footer > .container > ul > a:hover{
+
+    color: #6c757d;
+}
